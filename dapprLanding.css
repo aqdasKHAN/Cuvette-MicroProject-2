@@ -1,0 +1,240 @@
+/* * {
+            box-sizing: border-box;
+        } */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    overflow: auto;
+    background-color: #6F6AF7;
+    position: fixed;
+    height: 127px;
+    width: 100%;
+}
+
+.navbarMember {
+    float: left;
+    padding-left: 40px;
+}
+
+.navbarMember ul {
+    padding: 0px;
+    font-size: 36.43px;
+}
+
+.navbarMember ul li {
+    padding-left: 15px;
+    color: white;
+    float: left;
+    list-style: none;
+}
+
+#search {
+    margin-left: 2px;
+    margin-top: 30px;
+}
+
+
+#dappr {
+    font-family: "Delius Unicase", cursive;
+    font-weight: 700;
+    font-style: normal;
+    padding: 16px;
+    color: white;
+    font-size: 61.43px;
+    margin: 8px;
+}
+
+.navbarMember input {
+    border-radius: 30px;
+    width: 314px;
+    height: 57px;
+    padding-left: 21px;
+    font-size: 30px;
+}
+
+#hamburger {
+    width: 67px;
+    height: 46.6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+    margin-top: 35px;
+}
+
+#hamburger span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+#moreItems {
+    background-color: #6F6AF7;
+    font-size: 36.43px;
+    color: white;
+    margin-top: 38px;
+    border: none;
+}
+
+#biggestDiv{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#divFirst {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+#divFirst img {
+    height: 407px;
+    width: 356px;
+    margin-left: 125px;
+    margin-top: 146px;
+}
+
+#divFirst textarea {
+    height: 407px;
+    width: 800px;
+    margin-top: 146px;
+    background-color: #E5D8FF;
+    border: 2px solid rgb(253, 253, 253);
+    border-radius: 23px;
+}
+
+.divSecondBox {
+    background-color: blue;
+    height: 130px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 29px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+#divSecond {
+    margin-top: 90px;
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+#divSecondBox1 {
+    background: #929DFF;
+}
+
+#divSecondBox2 {
+    background: #734CF2;
+
+}
+
+#divSecondBox3 {
+    background: #D288FF;
+
+}
+
+#divSecondBox4 {
+    background: #000000;
+
+}
+
+#divThird {
+    background: #483EFF;
+    height: 390px;
+    width: 1270px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+.lastDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+#divThirdFirstbox{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #483EFF;
+    border-radius: 15px;
+    padding: 5px;
+    gap: 50px;
+    margin-left: 2px;
+}
+
+#divThirdSecondbox{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 15px;
+    height:300px ;
+    width: 1000px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 38px;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+#Box1{
+    height: 130px;
+    width: 400px;
+    border: 2px solid #483EFF;
+    border-radius: 15px;
+    background: #BCE0F6;
+    border: Mixed solid #FFFFFF;
+    
+}
+#Box2{
+    height: 130px;
+    width: 400px;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    background: #483EFF;
+    border: 3px solid #FFFFFF;
+}
+#Box3{
+    height: 130px;
+    width: 400px;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    background: #483EFF;
+    border: 3px solid #FFFFFF;
+}
+
+.divThirdboxes{
+    text-align: center;
+    padding-top: 24px;
+    font-size: 35px;
+}
+.smaller-text {
+    font-size: 0.8em; 
+}
+.larger-text{
+    font-size: 50px;
+}
+.icons{
+    position: fixed; 
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+}
